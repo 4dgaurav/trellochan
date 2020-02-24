@@ -15,19 +15,32 @@ class ListAdder extends Component {
     onBlur = () => {
         this.setState({ listEdit: !1 });
     };
+    /**
+     * Change List title.
+     *
+     * @param {event} HTMLEvent
+     */
     onChange = event => {
         this.setState({ newListTitle: event.target.value });
     };
+    /**
+     * Track Enter press.
+     *
+     * @param {event} HTMLEvent
+     */
     onKeyDown = event => {
         if (event.keyCode === 13) {
             event.preventDefault();
             this.onSubmit();
         }
     };
+    /**
+     * Submit New List.
+     *
+     */
     onSubmit = () => {
         const { dispatch, boardId } = this.props;
         const { newListTitle } = this.state;
-        debugger;
         dispatch(addList(this, newListTitle, boardId));
         this.setState({ listEdit: !1, newListTitle: "" });
     };
