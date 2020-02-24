@@ -4,7 +4,9 @@
 
 `npm install` will install the node dependencies.
 
-`npm run demo` will start the application on port 3000 and server on 3001.
+`npm start` will start the application on port 3000 with localStorage in use.
+
+`npm run demo` will start the application on port 3000 and server on 3001 with localStorage in use.
 
 ### Current Features
 
@@ -58,4 +60,5 @@
     - loader design
     - test cases
     - reorder lists and cards server call
+      (changed order is not retained if json server is running)
 
