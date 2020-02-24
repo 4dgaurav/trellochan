@@ -11,10 +11,10 @@
 1. Development
 
     1. Homepage
-        1. Add New Board
-        2. Select a Board
-        3. Delete a Board
-        4. Paginated
+        1. Get All Boards Paginated
+        2. Add New Board
+        3. Select a Board
+        4. Delete a Board
         
     2. Board
         1. Add New List
