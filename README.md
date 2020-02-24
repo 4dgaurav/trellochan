@@ -49,3 +49,11 @@
     3. Mouseless
 
 ### To do
+
+1. Pagination for Lists and Cards individually
+2. Features like
+    - auth
+    - change assign cards to users
+    - change label of lists
+    - loader design
+
