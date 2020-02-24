@@ -56,4 +56,5 @@
     - change assign cards to users
     - change label of lists
     - loader design
+    - test cases
 
